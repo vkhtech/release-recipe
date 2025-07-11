@@ -1,4 +1,4 @@
-FROM node:21-bullseye
+FROM node:24-bullseye
 RUN mkdir -p /app
 COPY . /app
 WORKDIR /app
