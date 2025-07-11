@@ -87,7 +87,7 @@ jobs:
       - run: az account show
 
       - name: 'Az CLI set AKS context'
-        uses: azure/aks-set-context@v3
+        uses: azure/aks-set-context@v4
         with:
           cluster-name: ${{ secrets.AZURE_CLUSTER_NAME }}
           resource-group: ${{ secrets.AZURE_RESOURCE_GROUP }}
